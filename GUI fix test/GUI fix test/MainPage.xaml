@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="GUI_fix_test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GUI_fix_test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="ikkunaLText" Width="150" HorizontalAlignment="Left" Margin="826,177,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ikkunaHText" Width="150" HorizontalAlignment="Left" Margin="826,214,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ikkunaWText" Width="150" HorizontalAlignment="Left" Margin="826,251,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ikkunaPAText" Width="150" HorizontalAlignment="Left" Margin="826,440,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lasiPAText" Width="150" HorizontalAlignment="Left" Margin="826,477,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="karmiPiiriText" Width="150" HorizontalAlignment="Left" Margin="826,514,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <Button x:Name="laskeButton" Click="laskeButton_Click" Content="Laske" HorizontalAlignment="Left" Margin="826,344,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="textBlock1" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,177,0,0" TextWrapping="Wrap" Text="Ikkunan leveys" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,214,0,0" TextWrapping="Wrap" Text="Ikkunan korkeus" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,251,0,0" TextWrapping="Wrap" Text="Karmipuun leveys" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,440,0,0" TextWrapping="Wrap" Text="Ikkunan pinta-ala" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,477,0,0" TextWrapping="Wrap" Text="Lasin pinta-ala" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock6" Height="30" Width="150" HorizontalAlignment="Left" Margin="650,514,0,0" TextWrapping="Wrap" Text="Karmin piiri" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
